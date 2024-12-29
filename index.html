@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Textboard</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Menlo, monospace;
+            background-color: #f9f9f9;
+            height: 100%; /* Ensure full height */
+            overflow-y: auto; /* Enable vertical scrolling */
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack content vertically */
+            align-items: center; /* Center horizontally */
+            padding: 20px;
+        }
+
+        .frame {
+            background: #ffffff;
+            border: 1px solid #ccc;
+            padding: 20px 30px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            width: 100%; /* Ensure frame fits the container */
+            line-height: 1.6;
+        }
+
+        /* Clickable text styling */
+        .clickable {
+            color: blue;
+            cursor: pointer;
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 15px 0;
+        }
+
+        .image-container {
+            margin-top: 40px; /* Increase space between soundboard and image */
+            margin-bottom: 20px; /* Add space before the videos */
+            text-align: center; /* Center the image */
+        }
+
+        img {
+            max-width: 100%; /* Ensure responsiveness */
+            height: auto;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container {
+            margin-top: 20px; /* Space between image and videos */
+        }
+
+        iframe {
+            max-width: 100%; /* Responsive iframe */
+            width: 100%;
+            height: 500px; /* Adjust as necessary */
+            border: none;
+            margin-bottom: 20px; /* Space between videos */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    
+       <div class="frame">
+            <p>I was born a female.</p>
+
+            <p>I was born a female, and thus declared <span class="clickable" data-sound="itsagirl">“girl”</span>.</p>
+
+            <p>
+                Of course, being a <span class="clickable" data-sound="girl">“girl”</span> came with its own set of desired
+                characteristics: For pre-puberty those would be <span class="clickable" data-sound="lookhowcute">“cuteness”</span> and <span class="clickable" data-sound="sweet">“mildness”</span>.
+            </p>
+
+            <p>I was destined to fail in both.</p>
+
+            <p>[...]</p>
+
+            <p>
+                At my parents’ dinner parties along with the dolls that came as gifts I was given questions: <span class="clickable" data-sound="children">“How many children are you going to have when you grow up?”</span>, <span class="clickable" data-sound="marry"> “Who are you going to marry?”</span>.
+            </p>
+
+            <p>[...]</p>
+
+            <p>But when I wasn’t creating worlds of adventure or sorrow in my room, I played outside:</p>
+
+            <p>
+                I can’t forgive the class bias for making <span class="clickable" data-sound="dirty">“dirty”</span> such a negative word. There, in the dirt, I played hide and seek, tag, dodgeball, but most of all I played football with the boys, I fought with the boys, I explored empty buildings and climbed fig trees with the boys. In my mind I was one of them, whatever that was.
+            </p>
+
+            <p>I was proclaimed a <span class="clickable" data-sound="tomboy">“tomboy”</span>.</p>
+
+            <p>
+                I was strong-willed, resolute, talkative and loud. On good days those characteristics would make me a 
+                <span class="clickable" data-sound="aleader">“leader”</span> but on bad days and since all I could actually lead was my shiny army of marbles, they just made me <span class="clickable" data-sound="yourestubborn">“stubborn”</span>.
+            </p>
+
+            <p>
+                And since adjectives have their own clusters and spectrums, and despite its seeming innocence, <span class="clickable" data-sound="stubborn">“stubborn”</span> often came along with <span class="clickable" data-sound="controversial">“controversial”</span>, <span class="clickable" data-sound=“naysayer”>“naysayer”</span> and <span class="clickable" data-sound=“quarrelsome”>“quarrelsome”</span>.
+            </p>
+
+            <p>And being a <span class="clickable" data-sound="stubborn_tomboy">“stubborn_tomboy”</span> has an expiration date.</p>
+
+            <p>[…]</p>
+
+            <p>
+                I got my first period when I was ten. At the time such an event was explicitly phrased as <span class="clickable" data-sound=“woman”>“becoming a woman”</span>.
+            </p>
+
+            <div class="image-container">
+                <img src="images/textboard1.png">
+            </div>
+
+            <p>
+                I was corrected because I walked <span class="clickable" data-sound="boywalk">“like a boy”</span> and was strongly urged to take ballet classes in order to become <span class="clickable" data-sound="graceful">“graceful”</span>.
+            </p>
+
+            <p>My changing body became a source of shame and a hindrance, instead of a source of pride and joy.</p>
+
+            <div class="image-container">
+                <img src="images/textboard2.png">
+            </div>
+
+            <p>
+                As girls grew, expectations extended to being <span class="clickable" data-sound="modest">“modest”</span>, <span class="clickable" data-sound="prudent">“prudent”</span> and <span class="clickable" data-sound="quiet">“quiet”</span>. Hanging out with the boys, and especially with the <span class="clickable" data-sound="bad">“bad”</span> boys, was enough to set off a general alarm and to label me <span class="clickable" data-sound="wild">“wild”</span>.
+            </p>
+
+            <p>[...]</p>
+
+            <p>Eventually I understood that for my friends too I was a <span class="clickable" data-sound="girl2">“girl”</span>.</p>
+
+            <div class="image-container">
+                <img src="images/textboard3.png">
+            </div>
+
+            <p>
+                I was <span class="clickable" data-sound="different">“different”</span> and the defenses I built during my teenage years were meant to make me <span class="clickable" data-sound="tough">“tough”</span> and <span class="clickable" data-sound="strong">“strong”</span>.
+            </p>
+
+            <div class="image-container">
+                <img src="images/textboard4.png">
+            </div>
+
+            <p>
+                I was morphing into something <span class="clickable" data-sound="weird">“weird”</span> and everything that made <span class="clickable" data-sound="strange">“strange”</span> a good thing filled me with comfort and, along with the <span class="clickable" data-sound="misfits">“misfits”</span> who accepted me, offered a sense of community and belonging.
+            </p>
+
+            <div class="image-container">
+                <img src="images/textboard5.png">
+            </div>
+
+            <p>
+                And although the <span class="clickable" data-sound="wholeness">“wholeness”</span> of a core self is a construct and nothing in us remains unmovable
+            </p>
+
+            <div class="image-container">
+                <img src="images/textboard6.png">
+            </div>
+
+            <p>I had to make a new self, with new vocabulary:</p>
+
+            <p>A frame</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" data-sound="worthy">“worthy”</span></p>
+
+            <p>a house</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" data-sound="beautiful">“beautiful”</span></p>
+
+            <p>a room</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" data-sound="warm">“warm”</span></p>
+
+            <p>where I could feel</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" data-sound="capable">“capable”</span></p>
+
+            <p>comfortable and safe</p>
+                        
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;to exist</p>
+
+            <p>allowed to be and to become</p>
+
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="clickable" data-sound="lovable">“lovable”</span>
+
+            <p>and try and fail and try.</p>
+
+            <div class="image-container">
+                <img src="images/textboard8.png">
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="sound"></audio>
+
+    <script>
+        document.querySelectorAll('.clickable').forEach(element => {
+            element.addEventListener('click', function () {
+                const soundFile = this.getAttribute('data-sound');
+                const audio = document.getElementById('sound');
+                audio.src = `sounds/${soundFile}.wav`; 
+                audio.play();
+            });
+        });
+    </script>
+</body>
+</html>
